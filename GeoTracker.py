@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Replace with your OpenCage API key
-key = os.getenv('OPENCAGE_API_KEY'3b8358205d614252a15b61840c5eb504'')
+key = os.getenv('OPENCAGE_API_KEY=3b8358205d614252a15b61840c5eb504')
 
 def get_coordinates(location, api_key):
     geocoder = OpenCageGeocode(api_key)
